@@ -95,7 +95,10 @@ new Pirate("Stephanie", true, "Chicago")]
 
 function shipCrew(shipName) {
     shipName.forEach((pirates) => {
-        console.log(pirates)
+        console.log(pirates.nickName)
+        console.log(pirates.hasAMissingLimb)
+        console.log(pirates.landOfOrigin)
+
     })
 
 }
